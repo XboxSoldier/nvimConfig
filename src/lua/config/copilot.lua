@@ -1,5 +1,6 @@
-vim.g.copilot_filetypes = {}
-vim.g.copilot_filetypes['*'] = true;
+vim.g.copilot_filetypes = {
+  ['*'] = true
+}
 
 vim.keymap.set('i', '<C-]>', '<Plug>(copilot-dismiss)')
 vim.keymap.set('i', '<M-]>', '<Plug>(copilot-next)')
