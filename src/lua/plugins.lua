@@ -19,5 +19,6 @@ require("lazy").setup({
   'neovim/nvim-lspconfig',
   'windwp/nvim-autopairs',
   'machakann/vim-highlightedyank',
-  'mg979/vim-visual-multi'
+  'mg979/vim-visual-multi',
+  'psliwka/vim-smoothie'
 })
