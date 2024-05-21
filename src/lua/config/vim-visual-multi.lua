@@ -1,0 +1,1 @@
+vim.g.VM_maps["Switch Mode"] = '<C-Tab>'
