@@ -21,5 +21,6 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 vim.opt.scrolloff = 5
-vim.opt.guifont = 'MonoLisa Commilitia:h11'
-vim.opt.gfw = 'CommilitiaFont UI TC:h11'
+vim.opt.guifont = 'MonoLisa Commilitia:h14'
+vim.opt.gfw = 'CommilitiaFont UI TC:h14'
+vim.opt.linespace = 3
