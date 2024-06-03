@@ -4,7 +4,7 @@ require('options')
 require('keymaps')
 require('lsp')
 
-require('config.copilot')
+require('config.copilot-cmp')
 require('config.nvim-autopairs')
 require('config.vim-visual-multi')
 require('config.nvim-cmp')

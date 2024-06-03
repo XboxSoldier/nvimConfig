@@ -12,7 +12,13 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  'github/copilot.vim',
+--  'github/copilot.vim',
+  {
+    'zbirenbaum/copilot.lua',
+    cmd = "Copilot",
+    event = "InsertEnter"
+  },
+  'zbirenbaum/copilot-cmp',
   'projekt0n/github-nvim-theme',
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
