@@ -1,4 +1,4 @@
-local colorscheme = 'github_light'
+local colorscheme = 'dracula_pro'
 
 local is_ok, _ = pcall(vim.cmd, 'colorscheme ' .. colorscheme)
 if not is_ok then

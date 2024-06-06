@@ -35,5 +35,9 @@ require("lazy").setup({
   'hrsh7th/cmp-vsnip',
   'hrsh7th/vim-vsnip',
   'rafamadriz/friendly-snippets',
-  'onsails/lspkind-nvim'
+  'onsails/lspkind-nvim',
+  {
+    name = 'dracula-pro',
+    dir = vim.fn.stdpath("config") .. '/projects/dracula-pro',
+  }
 })
