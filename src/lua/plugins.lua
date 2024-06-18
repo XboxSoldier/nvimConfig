@@ -39,6 +39,5 @@ require("lazy").setup({
   {
     name = 'dracula-pro',
     dir = vim.fn.stdpath("config") .. '/projects/dracula-pro',
-  },
-  'beeender/Comrade'
+  }
 })
